@@ -1,0 +1,306 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2639
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Menlo-Bold;\f2\fnil\fcharset0 Menlo-Regular;
+\f3\fswiss\fcharset0 Helvetica-Bold;}
+{\colortbl;\red255\green255\blue255;\red25\green28\blue31;\red245\green245\blue245;}
+{\*\expandedcolortbl;;\cssrgb\c12941\c14510\c16078;\cssrgb\c96863\c96863\c96863;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f0\fs28 \cf2 \cb3 \expnd0\expndtw0\kerning0
+Write a code to get the input in the given format and print the output in the given format.\
+\pard\pardeftab720\partightenfactor0
+
+\f1\b \cf2 \cb3 1.Sample Input :
+\f2\b0 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb3 guvi\cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f1\b \cf2 \cb3 Sample Output :
+\f2\b0 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb3 g,u,v,i\
+
+\f0 \cf2 \cb3 \
+\pard\pardeftab720\sa320\partightenfactor0
+\cf2 A=input()\
+B=(",".join(A))\
+print(B)\
+\pard\pardeftab720\partightenfactor0
+
+\f1\b \cf2 \cb3 2.Sample Input :
+\f2\b0 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb3 2 3 4 5 6 7 8\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\b \cf2 Sample Output :
+\f2\b0 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb3 2 3 4 5 6 7 8\
+
+\f0 \cf2 \cb3 \
+\pard\pardeftab720\sa320\partightenfactor0
+\cf2 A=input().split(' ')\
+B=list(map(int,A))\
+print(*B)\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\b \cf2 \cb3 3.Sample Input :
+\f2\b0 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb3 5 3\cb1 \
+\cb3 1 2 3 4 5\cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f1\b \cf2 \cb3 Sample Output :
+\f2\b0 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb3 5 3\cb1 \
+\cb3 1 2 3 4 5\
+\
+K=input().split(' ')\
+Y=list(map(int,K))\
+Z=input().split(' ')\
+R=list(map(int,Z))\
+print(*Y)\
+print(*R)\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\b \cf2 4.Sample Input :
+\f2\b0 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb3 2 4\cb1 \
+\cb3 2 4\cb1 \
+\cb3 2 4\cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f1\b \cf2 \cb3 Sample Output :
+\f2\b0 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb3 2 4\cb1 \
+\cb3 2 4\cb1 \
+\cb3 2 4\
+\
+A=input()\
+B=input()\
+C=input()\
+print(A)\
+print(B)\
+print(C)\
+\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\b \cf2 5.Sample Input :
+\f2\b0 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb3 guvi\cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f1\b \cf2 \cb3 Sample Output :
+\f2\b0 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb3 g u v i\
+\
+A=input()\
+print(" ".join(A))\
+\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\b \cf2 6.Sample Input :
+\f2\b0 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb3 2.3 4.5 7.8\cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f1\b \cf2 \cb3 Sample Output :
+\f2\b0 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb3 2.3\cb1 \
+\cb3 4.5\cb1 \
+\cb3 7.8\
+\
+A=input().split()\
+B=list(map(float,A))\
+for k in B:\
+    print(k)\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\b \cf2 7.Sample Input :
+\f2\b0 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb3 guvigeek\cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f1\b \cf2 \cb3 Sample Output :
+\f2\b0 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb3 g\cb1 \
+\cb3 u\cb1 \
+\cb3 v\cb1 \
+\cb3 i\cb1 \
+\cb3 g\cb1 \
+\cb3 e\cb1 \
+\cb3 e\cb1 \
+\cb3 k\
+\
+A=input()\
+for i in A:\
+    print(i)\
+\
+\
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f0 \cf2 \cb3 8.Find the minimum among 10 numbers.\cf2 \cb1 \uc0\u8232 \cf2 \cb3 Sample Testcase :\cf2 \cb1 \uc0\u8232 \cf2 \cb3 INPUT\cf2 \cb1 \uc0\u8232 \cf2 \cb3 5 4 3 2 1 7 6 10 8 9\cf2 \cb1 \uc0\u8232 \cf2 \cb3 OUTPUT\cf2 \cb1 \uc0\u8232 \cf2 \cb3 1\
+N=input().split()\
+print(min(N))\
+9.You are provided with a number \'92n\'92. Your task is to tell whether that number is saturated. A saturated number is a number which is made by exactly two digits.\cf2 \cb1 \
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f3\b \cf2 \cb3 Input Description:
+\f0\b0 \cf2 \cb1 \uc0\u8232 \cf2 \cb3 You are given with a number n.\cf2 \cb1 \
+
+\f3\b \cf2 \cb3 Output Description:
+\f0\b0 \cf2 \cb1 \uc0\u8232 \cf2 \cb3 Print Saturated if it is saturated else it is Unsaturated\cf2 \cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f1\b \cf2 \cb3 Sample Input :
+\f2\b0 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb3 121\cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f1\b \cf2 \cb3 Sample Output :
+\f2\b0 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb3 Saturated\
+\
+A=",".join(input())\
+B=A.split(",")\
+C=list(map(int,B))\
+D=[]\
+#print(C)\
+\
+for i in range(0,len(C)):\
+   if C[i] not in D:\
+       D.append(C[i])\
+       \
+if len(D)<2:\
+    print("Unsaturated")\
+elif len(D)>2:\
+    print("Unsaturated")\
+else:\
+    print("Saturated")\
+\
+10.
+\f0 \cf2 \cb3 Given a number N, print yes if the number is a multiple of 7 else print no.\cf2 \cb1 \uc0\u8232 \cf2 \cb3 Sample Testcase :\cf2 \cb1 \uc0\u8232 \cf2 \cb3 INPUT\cf2 \cb1 \uc0\u8232 \cf2 \cb3 49\cf2 \cb1 \uc0\u8232 \cf2 \cb3 OUTPUT\cf2 \cb1 \uc0\u8232 \cf2 \cb3 yes\
+\
+A=int(input())\
+if A%7==0:\
+    print('yes')\
+else:\
+    print('no')\
+\
+\
+\pard\pardeftab720\sa320\partightenfactor0
+\cf2 11.You are given with an array of numbers, Your task is to print the difference of indices of largest and smallest number.All number are unique.\cf2 \cb1 \
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f3\b \cf2 \cb3 Input Description:
+\f0\b0 \cf2 \cb1 \uc0\u8232 \cf2 \cb3 First line contains a number \'91n\'92. Then next line contains n space separated numbers.\cf2 \cb1 \
+
+\f3\b \cf2 \cb3 Output Description:
+\f0\b0 \cf2 \cb1 \uc0\u8232 \cf2 \cb3 Print the difference of indices of largest and smallest array\cf2 \cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f1\b \cf2 \cb3 Sample Input :
+\f2\b0 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb3 5\cb1 \
+\cb3 1 6 4 0 3\cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f1\b \cf2 \cb3 Sample Output :
+\f2\b0 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb3 -2\
+\
+A=int(input())\
+B=list(map(int,input().split()))\
+print(B.index(max(B))-B.index(min(B)))\
+\
+12.
+\f0 \cf2 \cb3 you are given with array of numbers.you have to find whether array is beautiful or not. A beautiful array is an array whose sum of all numbers is divisible by 2, 3 and 5\cf2 \cb1 \
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f3\b \cf2 \cb3 Input Description:
+\f0\b0 \cf2 \cb1 \uc0\u8232 \cf2 \cb3 You are given a number \'91n\'92 denoting the size of array.Next line contains n space separated numbers.\cf2 \cb1 \
+
+\f3\b \cf2 \cb3 Output Description:
+\f0\b0 \cf2 \cb1 \uc0\u8232 \cf2 \cb3 Print 1 if array is beautiful and 0 if it is not\cf2 \cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f1\b \cf2 \cb3 Sample Input :
+\f2\b0 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb3 5\cb1 \
+\cb3 5 25 35 -5 30\cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f1\b \cf2 \cb3 Sample Output :
+\f2\b0 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb3 1\
+\
+N=int(input())\
+l=input().split()\
+L=list(map(int,l))\
+Sum=sum(L)\
+if (Sum%2==0):\
+    if Sum%3==0:\
+        if Sum%5==0:\
+            X=1\
+else:\
+    X=0\
+    \
+print(X)\
+\
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f0 \cf2 \cb3 Ria is a 5 year old girl. Her mother wants to teach her how to sort words in the same order that they appear in a dictionary. She decides to write a program to sort a given set of strings based on their alphabetical order. Help Ria\'92s mother to complete the program.\cf2 \cb1 \
+\pard\pardeftab720\sa320\partightenfactor0
+
+\f3\b \cf2 \cb3 Input Description:
+\f0\b0 \cf2 \cb1 \uc0\u8232 \cf2 \cb3 A set of N strings\cf2 \cb1 \
+
+\f3\b \cf2 \cb3 Output Description:
+\f0\b0 \cf2 \cb1 \uc0\u8232 \cf2 \cb3 Alphabetically sorted set of strings\cf2 \cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f1\b \cf2 \cb3 Sample Input :
+\f2\b0 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb3 3\cb1 \
+\cb3 InfinityWar EndGame Avengers\cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f1\b \cf2 \cb3 Sample Output :
+\f2\b0 \cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb3 Avengers EndGame InfinityWar\
+\
+n=int(input())\
+L=input().split()\
+L.sort()\
+print(*L)\
+\
+\
+\
+}
